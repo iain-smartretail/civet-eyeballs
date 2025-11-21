@@ -18,6 +18,7 @@ function App() {
         <input
           type="file"
           accept="video/*"
+          style={{ display: 'none' }}
           onChange={(e) => {
             const file = e.target.files?.[0]
             if (file) {
